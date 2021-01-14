@@ -1,0 +1,64 @@
+label{
+    width: 240px;
+    display: inline-block;
+    color: white;
+    text-align: top;
+}
+
+p{
+    text-align: center;
+}
+
+div.image{
+    text-align: center;
+    size: 0in;
+}
+
+div p{
+    color: purple;
+    outline-style: auto;
+}
+
+div.pic{
+    text-align: center;
+}
+
+div.a{
+    text-align: center;
+
+}
+
+form{
+    background-color: blueviolet;
+}
+
+div.click{
+    font-style: oblique;
+    text-align: center;
+    font-size: large;
+}
+
+div.rollno{
+    font-style: oblique;
+    text-align: left;
+    font-size: small;
+    color: darkblue;
+}
+
+div.new{
+    font-style: oblique;
+    text-align: left;
+    font-size: small;
+    color: darkblue;
+}
+
+div.submit{
+    text-align: center;
+    color: white;
+
+}
+
+table{
+    width: 240px;
+    display: inline-block;
+}

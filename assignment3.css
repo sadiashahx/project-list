@@ -1,0 +1,180 @@
+body{
+    background-color: whitesmoke;
+}
+
+h3{
+    font-style: oblique;
+    text-align: left;
+    font-size: large;
+    color: darkblue;
+}
+
+h4{
+    text-align: center;
+    color: blue;
+}
+table{
+    background-color: royalblue;
+    height: 30px;
+    width: 1335px;
+}
+
+table p{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+table img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+table button{
+    cursor: pointer;
+    height: 35px;
+    border-radius: 10px;
+}
+
+div table{
+    background-color: whitesmoke;
+}
+
+div img{
+    width: 300px;
+    height: 80px;
+}
+
+div button:hover{
+    background-color: darkblue;
+    color: white;
+}
+
+img{
+
+    margin-top: 20px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ 
+ }
+
+
+h1{
+    color: blue;
+    font-size: x-large;
+    font-style: normal;
+    text-align: center;
+    font-weight: bold;
+}
+
+p{
+    text-align: center;
+    font-size: medium;
+    font-style: inherit;
+    width: auto;
+    height: auto;
+    line-height: 30px;
+}
+
+div p{
+    background-color: royalblue;
+    color: white;
+    font-size: medium;
+    text-align: right;
+    width: 1335;
+}
+
+.third{
+    border: 3px solid whitesmoke;
+}
+
+.third table{
+    border-spacing: 20px 20px;
+}
+
+.third td{
+    background-color:white;
+    width: 150px;
+    height: 100px;
+    cursor: pointer;  
+     
+}
+
+.third img{
+    width: 150px;
+    height: 100px;
+
+}
+
+.fourth{
+    border: 1px white;
+}
+
+.fourth table{
+      border-spacing: 10px 3px;
+}
+
+.fourth td{
+    background-color: whitesmoke;
+    width: 50px;
+    height: 20px;
+    cursor: pointer; 
+}
+
+.fourth img{
+
+    margin-left: 10px;
+    width: 70px;
+    height: 50px;
+}
+
+.fourth p{
+    color: white;
+    font-size: large;
+    line-height: 30px;
+    font-style: normal;
+}
+
+.fifth img{
+    width: 250px;
+    height: 150px;
+}
+
+h2{
+    color: white;
+    background-color: royalblue;
+    font-size: medium;
+    width: 1335;
+    height: 30px;
+    margin-top: 1px;
+    text-align: left;
+}
+
+h5{
+    background-color: blue;
+    width: 1335;
+    height: 200px;
+}
+
+h6{
+    color: blue;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.sixth table{
+    background-color: black;
+    color: white;
+    border-spacing: 2px 2px;
+    padding: 10px;
+}
+
+.sixth img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+    margin-right: 40px;
+}

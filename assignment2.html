@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="image"> 
+    <img src="https://awamiweb.com/wp-content/uploads/2018/07/saylani-welfare.jpg" height="200" width="700">
+    <p style="font-size: x-large;">Student Registration Form</p>
+    </div>
+    
+    <form action="" method="get">
+        <br><br>
+        <label for="firstname">FIRST NAME</label>
+        <input type="text" placeholder="Enter your first name" id="firstname" name="firstname" style="color: whitesmoke;" style="font-size: x-large;" maxlength="30" size="30"/><br><br>
+        <label for="lastname">LAST NAME</label>
+        <input type="text" placeholder="Enter your last name" id="lastname" name="lastname" style="color:whitesmoke;" style="font-size: x-large;" maxlength="30" size="30"/><br><br>
+        <label for="dateofbirth">DATE OF BIRTH</label>
+        <input type="date" id="dateofbirth" name="dateofbirth" style="color:whitesmoke;" style="font-size: x-large;" size="30"/><br><br>
+        <label for="emailid">EMAIL ID</label>
+        <input type="email" placeholder="Enter your email id" id="emailid" name="emailid" style="color:whitesmoke;" style="font-size: x-large;" size="30"/><br><br>
+        <label for="number">NUMBER</label>
+        <input type="number" placeholder="Enter your number" id="number" name="number" style="color:whitesmoke;" style="font-size: x-large;" maxlength="10" size="30"/><br><br>
+        <label for="gender">GENDER</label>
+        <input type="radio" id="gender" name="gender" value="Male" style="color:whitesmoke;" style="font-size: x-large;"/>Male
+        <input type="radio" id="gender" name="gender" value="Female" style="color:whitesmoke;" style="font-size: x-large;"/>Female<br><br>
+        <label for="address">ADDRESS</label>
+        <textarea name="Address" cols="30" rows="6" id="address" placeholder="Enter your Address"></textarea><br><br>
+        <label for="city">CITY</label>
+        <input type="text" placeholder="Enter your city name" id="city" name="city" style="color:whitesmoke;" style="font-size: x-large;" maxlength="30" size="30"/><br><br>
+        <label for="pincode">PIN CODE</label>
+        <input type="number" placeholder="Enter your pin code" id="pincode" name="pincode" style="color:whitesmoke;" style="font-size: x-large;" maxlength="6" size="30"/><br><br>
+        <label for="state">STATE</label>
+        <input type="text" placeholder="Enter your state" id="state" name="state" style="color:whitesmoke;" style="font-size: x-large;" maxlength="30" size="30"/><br><br>
+        <label for="country">COUNTRY</label>
+        <input type="country" placeholder="Enter your coutry name" id="country" name="country" style="color:whitesmoke;" style="font-size: x-large;" size="30"/><br><br>
+        <label for="hobbies">HOBBIES</label>
+        Drawing: <input type="checkbox" id="hobbies" name="hobbies" value="Drawing" style="color:whitesmoke;" style="font-size: x-large;"/>
+        Singing: <input type="checkbox" id="hobbies" name="hobbies" value="Singing" style="color:whitesmoke;" style="font-size: x-large;"/>
+        Dancing: <input type="checkbox" id="hobbies" name="hobbies" value="Dancing" style="color:whitesmoke;" style="font-size: x-large;"/>
+        Sketching: <input type="checkbox" id="hobbies" name="hobbies" value="Sketching" style="color:whitesmoke;" style="font-size: x-large;"/>
+        Others: <input type="checkbox" id="hobbies" name="hobbies" value="Others" style="color:whitesmoke;" style="font-size: x-large;"/><br><br>
+        <label for="qualification">QUALIFICATION</label>
+        <table id="qualification">
+          <tr>
+              <th scope="col">SI.No.</th>
+              <th scope="col">Examination</th>
+              <th scope="col">Board</th>
+              <th scope="col">Percentage</th>
+              <th scope="col">Year of Passing</th>
+          </tr>
+          <tr>
+              <td>1</td>
+              <td>Class X</td>
+              <td><input type="text" maxlength="10"/></td>
+              <td><input type="number" maxlength="3"/></td>
+              <td><input type="date"/></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Class XII</td>
+            <td><input type="text" maxlength="10"/></td>
+            <td><input type="number" maxlength="3"/></td>
+            <td><input type="date"/></td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Graduation</td>
+            <td><input type="text" maxlength="10"/></td>
+            <td><input type="number" maxlength="3"/></td>
+            <td><input type="date"/></td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Maters</td>
+            <td><input type="text" maxlength="10"/></td>
+            <td><input type="number" maxlength="3"/></td>
+            <td><input type="date"/></td>
+          </tr>
+        </table>
+        <br><br>
+        <label for="courses">COURSES APPLIED FOR</label>
+        <input type="radio" id="courses" name="courses" value="BCA" style="color:whitesmoke;" style="font-size: x-large;"/>BCA
+        <input type="radio" id="courses" name="courses" value="B.Com" style="color:whitesmoke;" style="font-size: x-large;"/>B.com
+        <input type="radio" id="courses" name="courses" value="B.SC" style="color:whitesmoke;" style="font-size: x-large;"/>B.SC
+        <input type="radio" id="courses" name="courses" value="B.A" style="color:whitesmoke;" style="font-size: x-large;"/>B.A<br><br><br><br>
+        <div class="submit">
+        <input type="submit" value="Submit" style="color: black;"/>
+        <input type="reset" value="Reset" style="color: black;"/>
+        </div>
+        <div class="click">
+        <br><a href="assignment2a.html" target="_blank" style="color: white;">Click here to see next page</a>
+        </div>
+    </form>
+</body>
+</html>
