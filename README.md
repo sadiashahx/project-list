@@ -1,2 +1,3 @@
 # project-list
-Using HTML5, CSS3 and Bootstrap 4.4
+Using HTML5, CSS3 and Bootstrap.
+https://sadiashahx.github.io/project-list/
