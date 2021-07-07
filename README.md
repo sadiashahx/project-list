@@ -1,3 +1,2 @@
-# project-list
-Using HTML5, CSS3 and Bootstrap.
+# Using HTML5, CSS3 and Bootstrap.
 https://sadiashahx.github.io/project-list/
